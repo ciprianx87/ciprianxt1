@@ -23,7 +23,9 @@ namespace WebApplication2.Controllers
         }
 
         public IActionResult Privacy()
-        {
+        { 
+
+            throw new Exception("error");
             return View();
         }
 
